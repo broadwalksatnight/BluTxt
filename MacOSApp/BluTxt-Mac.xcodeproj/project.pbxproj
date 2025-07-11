@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		22272BFD2DDB1BC800903D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22272BDF2DDB1BC700903D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22272BE62DDB1BC700903D6E;
+			remoteInfo = "BluTxt-Mac";
+		};
+		22272C072DDB1BC800903D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22272BDF2DDB1BC700903D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22272BE62DDB1BC700903D6E;
+			remoteInfo = "BluTxt-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22272BE72DDB1BC700903D6E /* BluTxt-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BluTxt-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22272BFC2DDB1BC800903D6E /* BluTxt-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BluTxt-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22272C062DDB1BC800903D6E /* BluTxt-MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BluTxt-MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		22272BE92DDB1BC700903D6E /* BluTxt-Mac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BluTxt-Mac";
+			sourceTree = "<group>";
+		};
+		22272BFF2DDB1BC800903D6E /* BluTxt-MacTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BluTxt-MacTests";
+			sourceTree = "<group>";
+		};
+		22272C092DDB1BC800903D6E /* BluTxt-MacUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BluTxt-MacUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22272BE42DDB1BC700903D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22272BF92DDB1BC800903D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22272C032DDB1BC800903D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22272BDE2DDB1BC700903D6E = {
+			isa = PBXGroup;
+			children = (
+				22272BE92DDB1BC700903D6E /* BluTxt-Mac */,
+				22272BFF2DDB1BC800903D6E /* BluTxt-MacTests */,
+				22272C092DDB1BC800903D6E /* BluTxt-MacUITests */,
+				22272BE82DDB1BC700903D6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22272BE82DDB1BC700903D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22272BE72DDB1BC700903D6E /* BluTxt-Mac.app */,
+				22272BFC2DDB1BC800903D6E /* BluTxt-MacTests.xctest */,
+				22272C062DDB1BC800903D6E /* BluTxt-MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22272BE62DDB1BC700903D6E /* BluTxt-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22272C102DDB1BC800903D6E /* Build configuration list for PBXNativeTarget "BluTxt-Mac" */;
+			buildPhases = (
+				22272BE32DDB1BC700903D6E /* Sources */,
+				22272BE42DDB1BC700903D6E /* Frameworks */,
+				22272BE52DDB1BC700903D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				22272BE92DDB1BC700903D6E /* BluTxt-Mac */,
+			);
+			name = "BluTxt-Mac";
+			packageProductDependencies = (
+			);
+			productName = "BluTxt-Mac";
+			productReference = 22272BE72DDB1BC700903D6E /* BluTxt-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22272BFB2DDB1BC800903D6E /* BluTxt-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22272C132DDB1BC800903D6E /* Build configuration list for PBXNativeTarget "BluTxt-MacTests" */;
+			buildPhases = (
+				22272BF82DDB1BC800903D6E /* Sources */,
+				22272BF92DDB1BC800903D6E /* Frameworks */,
+				22272BFA2DDB1BC800903D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22272BFE2DDB1BC800903D6E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				22272BFF2DDB1BC800903D6E /* BluTxt-MacTests */,
+			);
+			name = "BluTxt-MacTests";
+			packageProductDependencies = (
+			);
+			productName = "BluTxt-MacTests";
+			productReference = 22272BFC2DDB1BC800903D6E /* BluTxt-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22272C052DDB1BC800903D6E /* BluTxt-MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22272C162DDB1BC800903D6E /* Build configuration list for PBXNativeTarget "BluTxt-MacUITests" */;
+			buildPhases = (
+				22272C022DDB1BC800903D6E /* Sources */,
+				22272C032DDB1BC800903D6E /* Frameworks */,
+				22272C042DDB1BC800903D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22272C082DDB1BC800903D6E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				22272C092DDB1BC800903D6E /* BluTxt-MacUITests */,
+			);
+			name = "BluTxt-MacUITests";
+			packageProductDependencies = (
+			);
+			productName = "BluTxt-MacUITests";
+			productReference = 22272C062DDB1BC800903D6E /* BluTxt-MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22272BDF2DDB1BC700903D6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					22272BE62DDB1BC700903D6E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					22272BFB2DDB1BC800903D6E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 22272BE62DDB1BC700903D6E;
+					};
+					22272C052DDB1BC800903D6E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 22272BE62DDB1BC700903D6E;
+					};
+				};
+			};
+			buildConfigurationList = 22272BE22DDB1BC700903D6E /* Build configuration list for PBXProject "BluTxt-Mac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22272BDE2DDB1BC700903D6E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 22272BE82DDB1BC700903D6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22272BE62DDB1BC700903D6E /* BluTxt-Mac */,
+				22272BFB2DDB1BC800903D6E /* BluTxt-MacTests */,
+				22272C052DDB1BC800903D6E /* BluTxt-MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22272BE52DDB1BC700903D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22272BFA2DDB1BC800903D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22272C042DDB1BC800903D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22272BE32DDB1BC700903D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22272BF82DDB1BC800903D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22272C022DDB1BC800903D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22272BFE2DDB1BC800903D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22272BE62DDB1BC700903D6E /* BluTxt-Mac */;
+			targetProxy = 22272BFD2DDB1BC800903D6E /* PBXContainerItemProxy */;
+		};
+		22272C082DDB1BC800903D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22272BE62DDB1BC700903D6E /* BluTxt-Mac */;
+			targetProxy = 22272C072DDB1BC800903D6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22272C0E2DDB1BC800903D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M36XFDL7WB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = No;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = Yes;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22272C0F2DDB1BC800903D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M36XFDL7WB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = No;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = Yes;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22272C112DDB1BC800903D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BluTxt-Mac/BluTxt_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M36XFDL7WB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BluTxt-Mac/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BluTxt-Mac";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app requires Bluetooth access to advertise and connect.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "\"App requires Bluetooth access to function\"";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.FatCat.BluTxt-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		22272C122DDB1BC800903D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BluTxt-Mac/BluTxt_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M36XFDL7WB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BluTxt-Mac/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BluTxt-Mac";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app requires Bluetooth access to advertise and connect.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "\"App requires Bluetooth access to function\"";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.FatCat.BluTxt-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		22272C142DDB1BC800903D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M36XFDL7WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.FatCat.BluTxt-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluTxt-Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BluTxt-Mac";
+			};
+			name = Debug;
+		};
+		22272C152DDB1BC800903D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M36XFDL7WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.FatCat.BluTxt-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluTxt-Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BluTxt-Mac";
+			};
+			name = Release;
+		};
+		22272C172DDB1BC800903D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M36XFDL7WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.FatCat.BluTxt-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "BluTxt-Mac";
+			};
+			name = Debug;
+		};
+		22272C182DDB1BC800903D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M36XFDL7WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.FatCat.BluTxt-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "BluTxt-Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22272BE22DDB1BC700903D6E /* Build configuration list for PBXProject "BluTxt-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22272C0E2DDB1BC800903D6E /* Debug */,
+				22272C0F2DDB1BC800903D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22272C102DDB1BC800903D6E /* Build configuration list for PBXNativeTarget "BluTxt-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22272C112DDB1BC800903D6E /* Debug */,
+				22272C122DDB1BC800903D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22272C132DDB1BC800903D6E /* Build configuration list for PBXNativeTarget "BluTxt-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22272C142DDB1BC800903D6E /* Debug */,
+				22272C152DDB1BC800903D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22272C162DDB1BC800903D6E /* Build configuration list for PBXNativeTarget "BluTxt-MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22272C172DDB1BC800903D6E /* Debug */,
+				22272C182DDB1BC800903D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22272BDF2DDB1BC700903D6E /* Project object */;
+}
