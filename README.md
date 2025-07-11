@@ -11,15 +11,15 @@ Currently the Iphone runs as the Central and the Mac as a perperipheral
 
 Features
 ---------
-14 Character display name to help differentiate users
-Chunking of data to allow users to send in excess of BLE MTU as one message
-Detection of nearby users with push notifications 
+- 14 Character display name to help differentiate users
+- Chunking of data to allow users to send in excess of BLE MTU as one message
+- Detection of nearby users with push notifications 
 
 
 Intended Features
 ------------------
-Both devices capable of facilitating both roles, negotiation to decide who takes which role
-Multi-User conversations / Chat room 
+- Both devices capable of facilitating both roles, negotiation to decide who takes which role
+- Multi-User conversations / Chat room 
 
 
 
