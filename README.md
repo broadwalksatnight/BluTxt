@@ -5,7 +5,7 @@
 BluTxt is a cross-platform text sharing application that utilises BLE to communicate. Ideal for situations where you need to transfer text quickly from one device to another without the need to email yourself or use another online service. 
 
 
-Currently the Iphone runs as the Central and the Mac as a perperipheral
+Currently the Phone runs as the Central and the Mac as a perperipheral
 
 
 
@@ -27,8 +27,11 @@ Intended Features
 BluTxt iOS
 -----------
 
+BluTxt Android
+--------------
+
 BluTxt MacOS
 ------------
 
-BluTxt Android
+BluTxt Windows
 --------------
