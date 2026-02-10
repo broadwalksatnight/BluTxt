@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "rnyxmHXxV4kQRex7dlMofo4hQbvNYEigrmTYGWCSseuFP0QmZ31cVSCleAsSGlYOfDX7faf7vV+y7hUzfaSMeQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jack\\source\\repos\\BluTxt\\BluTxt\\BluTxt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jack\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512",
+    "C:\\Users\\Jack\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Jack\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Jack\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Jack\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
